@@ -1,0 +1,40 @@
+body {
+            background-color: #a4fdcb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .game-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        #h1 {
+            margin-bottom: 20px;
+            color: #3aa788;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        #input {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto 15px auto;
+        }
+        #result {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        #score {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #099782;
+            border-color: #099782;
+        }
+        .btn-primary:hover {
+            background-color: #406e61;
+            border-color: #406e61;
+        }
